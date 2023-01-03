@@ -1,0 +1,240 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ALU2REG	rvseed_defines.v	/^`define ALU2REG 1'b0$/;"	c
+ALU_ADD	rvseed_defines.v	/^`define ALU_ADD  `ALU_OP_WIDTH'b0011$/;"	c
+ALU_AND	rvseed_defines.v	/^`define ALU_AND  `ALU_OP_WIDTH'b0000$/;"	c
+ALU_BLT	rvseed_defines.v	/^`define ALU_BLT  `ALU_OP_WIDTH'b1010 \/\/ branch less than$/;"	c
+ALU_BLTU	rvseed_defines.v	/^`define ALU_BLTU `ALU_OP_WIDTH'b1011 \/\/ branch less than (unsigned)$/;"	c
+ALU_JAL	rvseed_defines.v	/^`define ALU_JAL  `ALU_OP_WIDTH'b1100  $/;"	c
+ALU_JALR	rvseed_defines.v	/^`define ALU_JALR `ALU_OP_WIDTH'b1101  $/;"	c
+ALU_OP_WIDTH	rvseed_defines.v	/^`define ALU_OP_WIDTH 4$/;"	c
+ALU_OR	rvseed_defines.v	/^`define ALU_OR   `ALU_OP_WIDTH'b0001$/;"	c
+ALU_SLL	rvseed_defines.v	/^`define ALU_SLL  `ALU_OP_WIDTH'b0101 \/\/ shift left logical$/;"	c
+ALU_SLT	rvseed_defines.v	/^`define ALU_SLT  `ALU_OP_WIDTH'b1000 \/\/ set less than  $/;"	c
+ALU_SLTU	rvseed_defines.v	/^`define ALU_SLTU `ALU_OP_WIDTH'b1001 \/\/ set less than (unsigned) $/;"	c
+ALU_SRA	rvseed_defines.v	/^`define ALU_SRA  `ALU_OP_WIDTH'b0111 \/\/ shift right arith $/;"	c
+ALU_SRC_FOUR_PC	rvseed_defines.v	/^`define ALU_SRC_FOUR_PC `ALU_SRC_WIDTH'b10 \/\/ src1 = 4,    src2 = pc$/;"	c
+ALU_SRC_IMM	rvseed_defines.v	/^`define ALU_SRC_IMM     `ALU_SRC_WIDTH'b01 \/\/ src1 = reg1, src2 = imm$/;"	c
+ALU_SRC_IMM_PC	rvseed_defines.v	/^`define ALU_SRC_IMM_PC  `ALU_SRC_WIDTH'b11 \/\/ src1 = imm,  src2 = pc$/;"	c
+ALU_SRC_REG	rvseed_defines.v	/^`define ALU_SRC_REG     `ALU_SRC_WIDTH'b00 \/\/ src1 = reg1, src2 = reg2$/;"	c
+ALU_SRC_WIDTH	rvseed_defines.v	/^`define ALU_SRC_WIDTH 2$/;"	c
+ALU_SRL	rvseed_defines.v	/^`define ALU_SRL  `ALU_OP_WIDTH'b0110 \/\/ shift right logical$/;"	c
+ALU_SUB	rvseed_defines.v	/^`define ALU_SUB  `ALU_OP_WIDTH'b0100$/;"	c
+ALU_XOR	rvseed_defines.v	/^`define ALU_XOR  `ALU_OP_WIDTH'b0010$/;"	c
+BRAN_OFF	rvseed_defines.v	/^`define BRAN_OFF    `BRAN_WIDTH'b00 \/\/ no branch$/;"	c
+BRAN_TYPE_A	rvseed_defines.v	/^`define BRAN_TYPE_A `BRAN_WIDTH'b01 \/\/ beq\/bge\/bgeu : branch if the zero flag is high.$/;"	c
+BRAN_TYPE_B	rvseed_defines.v	/^`define BRAN_TYPE_B `BRAN_WIDTH'b10 \/\/ bne\/blt\/bltu : branch if the zero flag is low.$/;"	c
+BRAN_WIDTH	rvseed_defines.v	/^`define BRAN_WIDTH 2$/;"	c
+CPU_WIDTH	rvseed_defines.v	/^`define CPU_WIDTH 32 \/\/ rv32$/;"	c
+DATA_MEM_ADDR_DEPTH	rvseed_defines.v	/^`define DATA_MEM_ADDR_DEPTH 1024$/;"	c
+DATA_MEM_ADDR_WIDTH	rvseed_defines.v	/^`define DATA_MEM_ADDR_WIDTH 10 \/\/ 2^10 = 1024$/;"	c
+FUNCT3_BASE	rvseed_defines.v	/^`define FUNCT3_BASE 12$/;"	c
+FUNCT3_WIDTH	rvseed_defines.v	/^`define FUNCT3_WIDTH 3$/;"	c
+FUNCT7_BASE	rvseed_defines.v	/^`define FUNCT7_BASE 25$/;"	c
+FUNCT7_INST_A	rvseed_defines.v	/^`define FUNCT7_INST_A  `FUNCT7_WIDTH'h00$/;"	c
+FUNCT7_INST_B	rvseed_defines.v	/^`define FUNCT7_INST_B  `FUNCT7_WIDTH'h20$/;"	c
+FUNCT7_WIDTH	rvseed_defines.v	/^`define FUNCT7_WIDTH 7$/;"	c
+IMM_GEN_B	rvseed_defines.v	/^`define IMM_GEN_B `IMM_GEN_OP_WIDTH'b010$/;"	c
+IMM_GEN_I	rvseed_defines.v	/^`define IMM_GEN_I `IMM_GEN_OP_WIDTH'b000 $/;"	c
+IMM_GEN_J	rvseed_defines.v	/^`define IMM_GEN_J `IMM_GEN_OP_WIDTH'b011$/;"	c
+IMM_GEN_OP_WIDTH	rvseed_defines.v	/^`define IMM_GEN_OP_WIDTH 3$/;"	c
+IMM_GEN_S	rvseed_defines.v	/^`define IMM_GEN_S `IMM_GEN_OP_WIDTH'b001$/;"	c
+IMM_GEN_U	rvseed_defines.v	/^`define IMM_GEN_U `IMM_GEN_OP_WIDTH'b100$/;"	c
+INST_ADDI	rvseed_defines.v	/^`define INST_ADDI      `FUNCT3_WIDTH'h0$/;"	c
+INST_ADD_SUB	rvseed_defines.v	/^`define INST_ADD_SUB   `FUNCT3_WIDTH'h0 $/;"	c
+INST_AND	rvseed_defines.v	/^`define INST_AND       `FUNCT3_WIDTH'h7$/;"	c
+INST_ANDI	rvseed_defines.v	/^`define INST_ANDI      `FUNCT3_WIDTH'h7$/;"	c
+INST_AUIPC	rvseed_defines.v	/^`define INST_AUIPC   `OPCODE_WIDTH'b0010111 \/\/ auipc$/;"	c
+INST_BEQ	rvseed_defines.v	/^`define INST_BEQ       `FUNCT3_WIDTH'h0$/;"	c
+INST_BGE	rvseed_defines.v	/^`define INST_BGE       `FUNCT3_WIDTH'h5$/;"	c
+INST_BGEU	rvseed_defines.v	/^`define INST_BGEU      `FUNCT3_WIDTH'h7$/;"	c
+INST_BLT	rvseed_defines.v	/^`define INST_BLT       `FUNCT3_WIDTH'h4$/;"	c
+INST_BLTU	rvseed_defines.v	/^`define INST_BLTU      `FUNCT3_WIDTH'h6$/;"	c
+INST_BNE	rvseed_defines.v	/^`define INST_BNE       `FUNCT3_WIDTH'h1$/;"	c
+INST_B_IMM_WIDTH	rvseed_defines.v	/^`define INST_B_IMM_WIDTH 13$/;"	c
+INST_EBREAK	rvseed_defines.v	/^`define INST_EBREAK    `FUNCT3_WIDTH'h0$/;"	c
+INST_ECALL	rvseed_defines.v	/^`define INST_ECALL     `FUNCT3_WIDTH'h0$/;"	c
+INST_I_IMM_WIDTH	rvseed_defines.v	/^`define INST_I_IMM_WIDTH 12$/;"	c
+INST_JAL	rvseed_defines.v	/^`define INST_JAL     `OPCODE_WIDTH'b1101111 \/\/ jal$/;"	c
+INST_JALR	rvseed_defines.v	/^`define INST_JALR    `OPCODE_WIDTH'b1100111 \/\/ jalr$/;"	c
+INST_J_IMM_WIDTH	rvseed_defines.v	/^`define INST_J_IMM_WIDTH 21$/;"	c
+INST_LB	rvseed_defines.v	/^`define INST_LB        `FUNCT3_WIDTH'h0$/;"	c
+INST_LBU	rvseed_defines.v	/^`define INST_LBU       `FUNCT3_WIDTH'h4$/;"	c
+INST_LH	rvseed_defines.v	/^`define INST_LH        `FUNCT3_WIDTH'h1$/;"	c
+INST_LHU	rvseed_defines.v	/^`define INST_LHU       `FUNCT3_WIDTH'h5$/;"	c
+INST_LUI	rvseed_defines.v	/^`define INST_LUI     `OPCODE_WIDTH'b0110111 \/\/ lui$/;"	c
+INST_LW	rvseed_defines.v	/^`define INST_LW        `FUNCT3_WIDTH'h2$/;"	c
+INST_MEM_ADDR_DEPTH	rvseed_defines.v	/^`define INST_MEM_ADDR_DEPTH 1024$/;"	c
+INST_MEM_ADDR_WIDTH	rvseed_defines.v	/^`define INST_MEM_ADDR_WIDTH 10 \/\/ 2^10 = 1024$/;"	c
+INST_OR	rvseed_defines.v	/^`define INST_OR        `FUNCT3_WIDTH'h6$/;"	c
+INST_ORI	rvseed_defines.v	/^`define INST_ORI       `FUNCT3_WIDTH'h6$/;"	c
+INST_SB	rvseed_defines.v	/^`define INST_SB        `FUNCT3_WIDTH'h0$/;"	c
+INST_SH	rvseed_defines.v	/^`define INST_SH        `FUNCT3_WIDTH'h1$/;"	c
+INST_SLL	rvseed_defines.v	/^`define INST_SLL       `FUNCT3_WIDTH'h1$/;"	c
+INST_SLLI	rvseed_defines.v	/^`define INST_SLLI      `FUNCT3_WIDTH'h1$/;"	c
+INST_SLT	rvseed_defines.v	/^`define INST_SLT       `FUNCT3_WIDTH'h2$/;"	c
+INST_SLTI	rvseed_defines.v	/^`define INST_SLTI      `FUNCT3_WIDTH'h2$/;"	c
+INST_SLTIU	rvseed_defines.v	/^`define INST_SLTIU     `FUNCT3_WIDTH'h3$/;"	c
+INST_SLTU	rvseed_defines.v	/^`define INST_SLTU      `FUNCT3_WIDTH'h3$/;"	c
+INST_SRLI_SRAI	rvseed_defines.v	/^`define INST_SRLI_SRAI `FUNCT3_WIDTH'h5 $/;"	c
+INST_SRL_SRA	rvseed_defines.v	/^`define INST_SRL_SRA   `FUNCT3_WIDTH'h5$/;"	c
+INST_SW	rvseed_defines.v	/^`define INST_SW        `FUNCT3_WIDTH'h2$/;"	c
+INST_S_IMM_WIDTH	rvseed_defines.v	/^`define INST_S_IMM_WIDTH 12$/;"	c
+INST_TYPE_B	rvseed_defines.v	/^`define INST_TYPE_B  `OPCODE_WIDTH'b1100011 \/\/ beq\/bne\/blt\/bge\/bltu\/bgeu$/;"	c
+INST_TYPE_I	rvseed_defines.v	/^`define INST_TYPE_I  `OPCODE_WIDTH'b0010011 \/\/ addi\/xori\/ori\/andi\/slli\/srli\/srai\/slti\/sltiu$/;"	c
+INST_TYPE_IE	rvseed_defines.v	/^`define INST_TYPE_IE `OPCODE_WIDTH'b1110011 \/\/ ecall\/ebreak$/;"	c
+INST_TYPE_IL	rvseed_defines.v	/^`define INST_TYPE_IL `OPCODE_WIDTH'b0000011 \/\/ lb\/lh\/lw\/lbu\/lhu$/;"	c
+INST_TYPE_R	rvseed_defines.v	/^`define INST_TYPE_R  `OPCODE_WIDTH'b0110011 \/\/ add\/sub\/xor\/or\/and\/sll\/srl\/sra\/slt\/sltu$/;"	c
+INST_TYPE_S	rvseed_defines.v	/^`define INST_TYPE_S  `OPCODE_WIDTH'b0100011 \/\/ sb\/sh\/sw$/;"	c
+INST_U_IMM_WIDTH	rvseed_defines.v	/^`define INST_U_IMM_WIDTH 32$/;"	c
+INST_XOR	rvseed_defines.v	/^`define INST_XOR       `FUNCT3_WIDTH'h4$/;"	c
+INST_XORI	rvseed_defines.v	/^`define INST_XORI      `FUNCT3_WIDTH'h4$/;"	c
+JUMP_JAL	rvseed_defines.v	/^`define JUMP_JAL  `JUMP_WIDTH'b01 \/\/ jal $/;"	c
+JUMP_JALR	rvseed_defines.v	/^`define JUMP_JALR `JUMP_WIDTH'b10 \/\/ jalr$/;"	c
+JUMP_OFF	rvseed_defines.v	/^`define JUMP_OFF  `JUMP_WIDTH'b00 \/\/ no jump $/;"	c
+JUMP_WIDTH	rvseed_defines.v	/^`define JUMP_WIDTH 2$/;"	c
+MEM2REG	rvseed_defines.v	/^`define MEM2REG 1'b1$/;"	c
+MEM_LB	rvseed_defines.v	/^`define MEM_LB  `MEM_OP_WIDTH'b000 \/\/ load byte$/;"	c
+MEM_LBU	rvseed_defines.v	/^`define MEM_LBU `MEM_OP_WIDTH'b011 \/\/ load byte (unsigned)$/;"	c
+MEM_LH	rvseed_defines.v	/^`define MEM_LH  `MEM_OP_WIDTH'b001 \/\/ load half word$/;"	c
+MEM_LHU	rvseed_defines.v	/^`define MEM_LHU `MEM_OP_WIDTH'b100 \/\/ load half word (unsigned)$/;"	c
+MEM_LW	rvseed_defines.v	/^`define MEM_LW  `MEM_OP_WIDTH'b010 \/\/ load word$/;"	c
+MEM_OP_WIDTH	rvseed_defines.v	/^`define MEM_OP_WIDTH 3$/;"	c
+MEM_SB	rvseed_defines.v	/^`define MEM_SB  `MEM_OP_WIDTH'b101 \/\/ store byte $/;"	c
+MEM_SH	rvseed_defines.v	/^`define MEM_SH  `MEM_OP_WIDTH'b110 \/\/ store half word$/;"	c
+MEM_SW	rvseed_defines.v	/^`define MEM_SW  `MEM_OP_WIDTH'b111 \/\/ store word$/;"	c
+OPCODE_WIDTH	rvseed_defines.v	/^`define OPCODE_WIDTH 7$/;"	c
+RD_BASE	rvseed_defines.v	/^`define RD_BASE     7$/;"	c
+REG_ADDR_WIDTH	rvseed_defines.v	/^`define REG_ADDR_WIDTH 5 \/\/ 2^5 = 32$/;"	c
+REG_DATA_DEPTH	rvseed_defines.v	/^`define REG_DATA_DEPTH 32$/;"	c
+RS1_BASE	rvseed_defines.v	/^`define RS1_BASE    15$/;"	c
+RS2_BASE	rvseed_defines.v	/^`define RS2_BASE    20$/;"	c
+SIM_PERIOD	rvseed_defines.v	/^`define SIM_PERIOD 20 \/\/ 20ns -> 50MHz $/;"	c
+alu	alu.v	/^module alu($/;"	m
+alu_op	alu.v	/^    input      [`ALU_OP_WIDTH-1:0] alu_op,   \/\/ alu opcode$/;"	p
+alu_op	rvseed.v	/^wire [`ALU_OP_WIDTH-1:0]     alu_op;     \/\/ alu opcode$/;"	n
+alu_res	rvseed.v	/^wire [`CPU_WIDTH-1:0]        alu_res;    \/\/ alu result$/;"	n
+alu_src1	rvseed.v	/^wire [`CPU_WIDTH-1:0]        alu_src1;   \/\/ alu source 1$/;"	n
+alu_src2	alu.v	/^    input      [`CPU_WIDTH-1:0]    alu_src2, \/\/ alu source 2$/;"	p
+alu_src2	rvseed.v	/^wire [`CPU_WIDTH-1:0]        alu_src2;   \/\/ alu source 2$/;"	n
+alu_src_sel	mux_alu.v	/^    input      [`ALU_SRC_WIDTH-1:0] alu_src_sel,\/\/ reg or imm to alu$/;"	p
+alu_src_sel	rvseed.v	/^wire [`ALU_SRC_WIDTH-1:0]    alu_src_sel;\/\/ alu source select flag$/;"	n
+branch	rvseed.v	/^wire [`BRAN_WIDTH-1:0]       branch;     \/\/ branch flag$/;"	n
+clk	data_mem.v	/^    input                       clk,$/;"	p
+clk	pc_reg.v	/^    input                       clk,     \/\/ system clock$/;"	p
+clk	reg_file.v	/^    input                            clk,$/;"	p
+clk	rvseed.v	/^    input clk,$/;"	p
+ctrl	ctrl.v	/^module ctrl ($/;"	m
+curr_pc	inst_mem.v	/^    input      [`CPU_WIDTH-1:0] curr_pc, \/\/ current pc addr$/;"	p
+curr_pc	mux_alu.v	/^    input      [`CPU_WIDTH-1:0]     curr_pc,    \/\/ current pc addr$/;"	p
+curr_pc	mux_pc.v	/^    input      [`CPU_WIDTH-1:0]  curr_pc,    \/\/ current pc addr$/;"	p
+curr_pc	rvseed.v	/^wire [`CPU_WIDTH-1:0]        curr_pc;    \/\/ current pc addr$/;"	n
+data_mem	data_mem.v	/^module data_mem ($/;"	m
+data_mem_f	data_mem.v	/^reg [`CPU_WIDTH-1:0] data_mem_f [0:`DATA_MEM_ADDR_DEPTH-1];$/;"	r
+ena	mux_pc.v	/^    input                        ena,$/;"	p
+ena	rvseed.v	/^wire                         ena;$/;"	n
+funct3	ctrl.v	/^wire [`FUNCT3_WIDTH-1:0] funct3 = inst[`FUNCT3_WIDTH+`FUNCT3_BASE-1:`FUNCT3_BASE];$/;"	n
+funct7	ctrl.v	/^wire [`FUNCT7_WIDTH-1:0] funct7 = inst[`FUNCT7_WIDTH+`FUNCT7_BASE-1:`FUNCT7_BASE]; $/;"	n
+imm	rvseed.v	/^wire [`CPU_WIDTH-1:0]        imm;        \/\/ immediate$/;"	n
+imm_gen	imm_gen.v	/^module imm_gen ($/;"	m
+imm_gen_op	rvseed.v	/^wire [`IMM_GEN_OP_WIDTH-1:0] imm_gen_op; \/\/ immediate extend opcode$/;"	n
+input	alu.v	/^    input      [`CPU_WIDTH-1:0]    alu_src1, \/\/ alu source 1$/;"	p
+input	data_mem.v	/^    input                       mem_wen,   \/\/ memory write enable$/;"	p
+input	data_mem.v	/^    input      [`CPU_WIDTH-1:0] mem_addr,  \/\/ memory write\/ read address$/;"	p
+input	imm_gen.v	/^    input      [`IMM_GEN_OP_WIDTH-1:0] imm_gen_op, \/\/ immediate extend opcode$/;"	p
+input	mux_alu.v	/^    input      [`CPU_WIDTH-1:0]     imm,        \/\/ immediate$/;"	p
+input	mux_alu.v	/^    input      [`CPU_WIDTH-1:0]     reg1_rdata, \/\/ register 1 read data$/;"	p
+input	mux_mem.v	/^    input      [`CPU_WIDTH-1:0]    mem_addr, \/\/ memory write\/read address$/;"	p
+input	mux_mem.v	/^    input      [`CPU_WIDTH-1:0]    mem_rdata,$/;"	p
+input	mux_pc.v	/^    input      [`BRAN_WIDTH-1:0] branch,     \/\/ branch type $/;"	p
+input	mux_pc.v	/^    input      [`CPU_WIDTH-1:0]  imm,        \/\/ immediate  $/;"	p
+input	mux_pc.v	/^    input      [`JUMP_WIDTH-1:0] jump,       \/\/ jump type $/;"	p
+input	mux_reg.v	/^    input      [`CPU_WIDTH-1:0]    alu_res,   \/\/ alu result input$/;"	p
+input	mux_reg.v	/^    input      [`CPU_WIDTH-1:0]    mem_addr,  \/\/ memory write\/read address$/;"	p
+input	pc_reg.v	/^    input                       rst_n,   \/\/ active low reset$/;"	p
+input	reg_file.v	/^    input                            rst_n,$/;"	p
+input	reg_file.v	/^    input      [`REG_ADDR_WIDTH-1:0] reg1_raddr, \/\/ register 1 read address$/;"	p
+input	reg_file.v	/^    input      [`REG_ADDR_WIDTH-1:0] reg_waddr,  \/\/ register write address$/;"	p
+input	rvseed.v	/^    input rst_n$/;"	p
+inst	ctrl.v	/^    input      [`CPU_WIDTH-1:0]        inst,       \/\/ instruction input$/;"	p
+inst	imm_gen.v	/^    input      [`CPU_WIDTH-1:0]        inst,       \/\/ instruction input$/;"	p
+inst	rvseed.v	/^wire [`CPU_WIDTH-1:0]        inst;       \/\/ instruction$/;"	n
+inst_mem	inst_mem.v	/^module inst_mem ($/;"	m
+inst_mem_f	inst_mem.v	/^reg [`CPU_WIDTH-1:0] inst_mem_f [0:`INST_MEM_ADDR_DEPTH-1];$/;"	r
+jump	rvseed.v	/^wire [`JUMP_WIDTH-1:0]       jump;       \/\/ jump flag$/;"	n
+mem2reg	mux_reg.v	/^    input                          mem2reg,   \/\/ memory or ALU to register$/;"	p
+mem2reg	rvseed.v	/^wire                         mem2reg;    \/\/ memory to register flag$/;"	n
+mem_addr	rvseed.v	/^wire [`CPU_WIDTH-1:0]        mem_addr;   \/\/ memory write\/ read address$/;"	n
+mem_byte	mux_reg.v	/^reg [7:0]  mem_byte;     \/\/memory read byte$/;"	r
+mem_halfword	mux_reg.v	/^reg [15:0] mem_halfword; \/\/ memory read half word$/;"	r
+mem_op	mux_mem.v	/^    input      [`MEM_OP_WIDTH-1:0] mem_op, \/\/ memory opcode$/;"	p
+mem_op	mux_reg.v	/^    input      [`MEM_OP_WIDTH-1:0] mem_op,    \/\/ memory opcode$/;"	p
+mem_op	rvseed.v	/^wire [`MEM_OP_WIDTH-1:0]     mem_op;     \/\/ memory opcode$/;"	n
+mem_rdata	mux_reg.v	/^    input      [`CPU_WIDTH-1:0]    mem_rdata, \/\/ memory read data input$/;"	p
+mem_rdata	rvseed.v	/^wire [`CPU_WIDTH-1:0]        mem_rdata;  \/\/ memory read data output$/;"	n
+mem_ren	data_mem.v	/^    input                       mem_ren,   \/\/ memory read enable$/;"	p
+mem_ren	rvseed.v	/^wire                         mem_ren;    \/\/ memory read enable$/;"	n
+mem_wdata	data_mem.v	/^    input      [`CPU_WIDTH-1:0] mem_wdata, \/\/ memory write data input$/;"	p
+mem_wdata	rvseed.v	/^wire [`CPU_WIDTH-1:0]        mem_wdata;  \/\/ memory write data input$/;"	n
+mem_wen	rvseed.v	/^wire                         mem_wen;    \/\/ memory write enable$/;"	n
+mem_word	mux_reg.v	/^reg [31:0] mem_word;     \/\/ memory read word$/;"	r
+mux_alu	mux_alu.v	/^module mux_alu ( $/;"	m
+mux_mem	mux_mem.v	/^module mux_mem ($/;"	m
+mux_pc	mux_pc.v	/^module mux_pc ($/;"	m
+mux_reg	mux_reg.v	/^module mux_reg ( $/;"	m
+next_pc	pc_reg.v	/^    input      [`CPU_WIDTH-1:0] next_pc, \/\/ next pc addr$/;"	p
+next_pc	rvseed.v	/^wire [`CPU_WIDTH-1:0]        next_pc;    \/\/ next pc addr$/;"	n
+opcode	ctrl.v	/^wire [`OPCODE_WIDTH-1:0] opcode = inst[`OPCODE_WIDTH-1:0];            $/;"	n
+output	alu.v	/^    output reg                     zero,     \/\/ alu result is zero$/;"	p
+output	ctrl.v	/^    output reg [`BRAN_WIDTH-1:0]       branch,     \/\/ branch flag$/;"	p
+output	data_mem.v	/^    output reg [`CPU_WIDTH-1:0] mem_rdata  \/\/ memory read data output$/;"	p
+output	inst_mem.v	/^    output reg [`CPU_WIDTH-1:0] inst     \/\/ instruction$/;"	p
+output	mux_alu.v	/^    output reg [`CPU_WIDTH-1:0]     alu_src1,   \/\/ alu source 1$/;"	p
+output	mux_pc.v	/^    output reg [`CPU_WIDTH-1:0]  next_pc     \/\/ next pc addr$/;"	p
+output	mux_reg.v	/^    output reg [`CPU_WIDTH-1:0]    reg_wdata  \/\/ register write data output$/;"	p
+output	pc_reg.v	/^    output reg [`CPU_WIDTH-1:0] curr_pc  \/\/ current pc addr$/;"	p
+output	reg_file.v	/^    output reg [`CPU_WIDTH-1:0]      reg1_rdata, \/\/ register 1 read data$/;"	p
+pc_reg	pc_reg.v	/^module pc_reg ($/;"	m
+rd	ctrl.v	/^wire [`REG_ADDR_WIDTH-1:0] rd   = inst[`REG_ADDR_WIDTH+`RD_BASE-1:`RD_BASE]; $/;"	n
+reg	alu.v	/^    output reg [`CPU_WIDTH-1:0]    alu_res   \/\/ alu result$/;"	p
+reg	ctrl.v	/^    output reg                         mem2reg,    \/\/ memory to register flag$/;"	p
+reg	ctrl.v	/^    output reg                         mem_ren,    \/\/ memory read enable$/;"	p
+reg	ctrl.v	/^    output reg                         mem_wen,    \/\/ memory write enable$/;"	p
+reg	ctrl.v	/^    output reg                         reg_wen,    \/\/ register write enable$/;"	p
+reg	ctrl.v	/^    output reg [`ALU_OP_WIDTH-1:0]     alu_op,     \/\/ alu opcode$/;"	p
+reg	ctrl.v	/^    output reg [`ALU_SRC_WIDTH-1:0]    alu_src_sel \/\/ alu source select flag$/;"	p
+reg	ctrl.v	/^    output reg [`IMM_GEN_OP_WIDTH-1:0] imm_gen_op, \/\/ immediate extend opcode$/;"	p
+reg	ctrl.v	/^    output reg [`JUMP_WIDTH-1:0]       jump,       \/\/ jump flag$/;"	p
+reg	ctrl.v	/^    output reg [`MEM_OP_WIDTH-1:0]     mem_op,     \/\/ memory opcode$/;"	p
+reg	ctrl.v	/^    output reg [`REG_ADDR_WIDTH-1:0]   reg1_raddr, \/\/ register 1 read address$/;"	p
+reg	ctrl.v	/^    output reg [`REG_ADDR_WIDTH-1:0]   reg2_raddr, \/\/ register 2 read address$/;"	p
+reg	ctrl.v	/^    output reg [`REG_ADDR_WIDTH-1:0]   reg_waddr,  \/\/ register write address$/;"	p
+reg	imm_gen.v	/^    output reg [`CPU_WIDTH-1:0]        imm         \/\/ immediate  $/;"	p
+reg	mux_alu.v	/^    output reg [`CPU_WIDTH-1:0]     alu_src2    \/\/ alu source 2$/;"	p
+reg	mux_mem.v	/^    output reg [`CPU_WIDTH-1:0]    mem_wdata$/;"	p
+reg	pc_reg.v	/^    output reg                  ena,     \/\/ system enable$/;"	p
+reg	reg_file.v	/^    output reg [`CPU_WIDTH-1:0]      reg2_rdata  \/\/ register 2 read data$/;"	p
+reg1_raddr	rvseed.v	/^wire [`REG_ADDR_WIDTH-1:0]   reg1_raddr; \/\/ register 1 read address$/;"	n
+reg1_rdata	mux_pc.v	/^    input      [`CPU_WIDTH-1:0]  reg1_rdata, \/\/ register 1 read data$/;"	p
+reg1_rdata	rvseed.v	/^wire [`CPU_WIDTH-1:0]        reg1_rdata; \/\/ register 1 read data$/;"	n
+reg2_raddr	reg_file.v	/^    input      [`REG_ADDR_WIDTH-1:0] reg2_raddr, \/\/ register 2 read address$/;"	p
+reg2_raddr	rvseed.v	/^wire [`REG_ADDR_WIDTH-1:0]   reg2_raddr; \/\/ register 2 read address$/;"	n
+reg2_rdata	mux_alu.v	/^    input      [`CPU_WIDTH-1:0]     reg2_rdata, \/\/ register 2 read data$/;"	p
+reg2_rdata	mux_mem.v	/^    input      [`CPU_WIDTH-1:0]    reg2_rdata,$/;"	p
+reg2_rdata	rvseed.v	/^wire [`CPU_WIDTH-1:0]        reg2_rdata; \/\/ register 2 read data$/;"	n
+reg_f	reg_file.v	/^reg [`CPU_WIDTH-1:0] reg_f [0:`REG_DATA_DEPTH-1]; $/;"	r
+reg_file	reg_file.v	/^module reg_file ($/;"	m
+reg_waddr	rvseed.v	/^wire [`REG_ADDR_WIDTH-1:0]   reg_waddr;  \/\/ register write address$/;"	n
+reg_wdata	reg_file.v	/^    input      [`CPU_WIDTH-1:0]      reg_wdata,  \/\/ register write data$/;"	p
+reg_wdata	rvseed.v	/^wire [`CPU_WIDTH-1:0]        reg_wdata;  \/\/ register write data$/;"	n
+reg_wen	reg_file.v	/^    input                            reg_wen,    \/\/ register write enable$/;"	p
+reg_wen	rvseed.v	/^wire                         reg_wen;    \/\/ register write enable$/;"	n
+rs1	ctrl.v	/^wire [`REG_ADDR_WIDTH-1:0] rs1  = inst[`REG_ADDR_WIDTH+`RS1_BASE-1:`RS1_BASE]; $/;"	n
+rs2	ctrl.v	/^wire [`REG_ADDR_WIDTH-1:0] rs2  = inst[`REG_ADDR_WIDTH+`RS2_BASE-1:`RS2_BASE]; $/;"	n
+rvseed	rvseed.v	/^module rvseed ($/;"	m
+zero	mux_pc.v	/^    input                        zero,       \/\/ alu result is zero$/;"	p
+zero	rvseed.v	/^wire                         zero;       \/\/ alu result is zero$/;"	n
